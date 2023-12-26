@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://cdn.pixabay.com/photo/2017/01/16/19/40/mountains-1985027_1280.jpg");
+  background-repeat:no-repeat ;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+  color: black;   
+  overflow: hidden; 
+}
+article{
+display: flex;
+margin-top: 100px;
+justify-content: center;
+align-items: center;
+height: 1000px;
+width: 400px;
+gap: 5px;
+box-sizing: border-box;
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  height: 40px;
+}
+input{
+background-color: rgb(234, 236, 236);
+height: 30px;
+text-align: center;
+width: 100px;
+border-radius: 0px;
+border: none;
+}
+input:hover{
+  background-color: rgba(117, 207, 212, 0.555)
+}
+.weather{
+ width: 300px;
+ text-align: center;
+ border: 2px solid rgb(219, 230, 232);
+ border-radius: 10%;
+ opacity: 90%;
+}
+button{
+  color:black;
+  width: 70px;
+  height: 30px;
+  border: none;
+  margin: 5px;
+}
